@@ -1,0 +1,63 @@
+body {
+    background-image: url("istockphoto-493335354-612x612.jpg");
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    
+}
+.container {
+    margin: 10% auto;
+    background-color: white;
+    border: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#count-el {
+    text-align: center;
+}
+.btns {
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-el {
+    background-color: white;
+    
+    padding: 10px;
+}
